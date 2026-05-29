@@ -1,0 +1,7 @@
+node_modules/
+.env
+serviceAccountKey.json
+coverage/
+data/
+npm-debug.log*
+.DS_Store
