@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Smart Campus Safety",
+    "slug": "smart-campus-safety",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture incident evidence.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to attach GPS coordinates to safety reports."
+      }
+    },
+    "android": {
+      "package": "com.student.smartcampussafety",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-location",
+      "expo-notifications",
+      "expo-camera",
+      "expo-image-picker"
+    ]
+  }
+}
