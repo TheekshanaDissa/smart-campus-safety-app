@@ -1,4 +1,4 @@
-﻿# Smart Campus Safety App
+# Smart Campus Safety App
 
 A ready-to-run final assessment project for **Mobile Application Development**.
 
@@ -172,4 +172,3 @@ eas build -p android --profile preview
 ```
 
 For this assessment, Expo Go QR testing is enough for local development/demo.
-
